@@ -28,7 +28,8 @@ local b = arg[2]
 local sum = a + b
 local difference = a - b
 local product = a * b
-local quotient = math.modf(a / b)
+local quotient = a // b
+-- local quotient = math.modf(a / b)
 local remainder = math.fmod(a, b)
 local power = a ^ b
 
